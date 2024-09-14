@@ -1,0 +1,147 @@
+.container-fluid{
+    padding: 0px auto;
+}
+
+#title{
+    background-color: darkgray;
+    margin-top: 15px;
+}
+#features{
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+    top: 20px;
+    bottom: 20px;
+    padding-bottom: 50px;
+}
+
+#testimonials{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#Pricing{
+    background-color: #fff;
+}
+#cta{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#foot{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icon{
+   margin: 10px;
+}
+.Sewa{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+
+body{
+    background-color: darkgray;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+    word-spacing:3%;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: "Petemoss", cursive;
+    color: #fff;
+}
+
+.big-heading{
+    font-size: 4rem;
+    font-family: "Jaro", sans-serif;
+    color: #fff;
+}
+
+
+
+    .img-fluid{
+        background-color:  darkgray;
+        height: 400px;    
+        width: 190px;
+        transform: rotate(30deg);
+        margin-top: 30px;
+        border-radius: 25px;
+        position:absolute;
+    }
+    .carousel{
+        color: #fff;
+    }
+
+
+.nav-link{
+    margin: auto 4px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.button-download{
+    margin: auto 7.5px;
+}
+
+.colored-section{
+    padding: 25px;
+}
+
+.icon:hover{
+    color: darkgrey;
+    
+}
+
+.white-section{
+    background-color: white;
+    padding: 20px   
+}
+
+.feature-box{
+    color: #333;
+    margin: 20px auto;
+}
+h3{
+    font-family: "Poetsen One", sans-serif;  
+    font-weight: 400;
+}
+
+.carousel-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.carousel-control-prev {
+    left: 0;
+    transform: translateX(-50%);
+  }
+  
+  .carousel-control-next {
+    right: 0;
+    transform: translateX(50%);
+  }
+
+  @media (max-width: 1028px) {
+    .img-fluid{
+        background-color:  darkgray;
+        height: 400px;    
+        width: 190px;
+        transform: rotate(0deg);
+        margin-top: 30px;
+        border-radius: 25px;
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+  }
